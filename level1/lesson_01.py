@@ -19,11 +19,11 @@ print ("\nScript running time: ", datetime.now() - startTime, "\n")
 startTime = datetime.now()
 answer = []
 i = 2000
-while i==3200:
+while i<=3200:
     if (i%7==0) and (i%5!=0):
         answer.append(str(i))
     i += 1
 
-print(','.join(ans))
+print(','.join(answer))
 
 print ("\nScript running time: ", datetime.now() - startTime, "\n")
